@@ -1,4 +1,4 @@
-import { Given, When, Then } from '../../fixtures/fixtures';
+import { Given, When, Then } from '../fixtures/fixtures';
 import { expect } from '@playwright/test';
 
 Given('I open the Google homepage', async ({ page }) => {
